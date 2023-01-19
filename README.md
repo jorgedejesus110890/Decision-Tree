@@ -31,7 +31,7 @@ The information gain is the measure used by the ID3 algorithm to select the most
 
 ![alt text](https://github.com/jorgedejesus110890/Decision-Tree/blob/main/Gain.jpg?raw=true)
 
-### Dataset
+## 3. Dataset
 
 The database that has a sample 12 dogs.
 
@@ -48,7 +48,7 @@ The data presented in Table 1 present the following attributes:
 - Hair Type. It is a nominal attribute with two different observations which are: Poodle and Smooth.
 - Characteristic. It is a nominal decision attribute. Determine if the dog is dangerous or not and its observations are: Danger and Safe.
 
-### Results
+## 4. Results
 
 The decision tree with ID3 would be as follows:
 
@@ -56,7 +56,16 @@ The decision tree with ID3 would be as follows:
 
 Figure 1. The decision tree produced based on the ID3 algorithm.
 
-Conclusions
+## 5. Conclusions
 
 In this work, the ID3 algorithm to build decision trees is presented, its advantages and disadvantages are shown, an exercise is carried out to see how this algorithm works, the results in section 3. Results give evidence that it is possible to build with precision decision trees from the ID3 algorithm. It can be concluded that from a set of data provided by a specialist in a discipline it is possible to have decision trees through the ID3 algorithm since it is a reliable support and help tool for decision making, it is important to highlight that You must have a consistent and reliable data set, since these types of tools depend on the knowledge provided by the information.
 
+## 6. Bibliography
+
+[1] Cruz-Ramírez N, Acosta-Mesa HG, Carrillo-Calvet H, BarrientosMartínez RE. Comparison of the Performance of Seven Classifiers as Effective Decision Support Tools for the Cytodiagnosis of Breast Cancer: A Case Study. Analysis and Design of Intelligent Systems using Soft Computing Techniques. Advances in soft computing; 41: 79 – 87.
+
+[2] Rokach, L., Maimon, O. (2005). Top-Down Induction of Decision Trees Classifiers: A Survey. IEEE Transaction on Systems, Man, and Cybernetics – Part C: Applications and Reviews, Vol. 35, 4, pp. 476-487.
+
+[3] Barros, R. C., R. Cerri, P. A. Jaskowiak, A. C. P. L. F. Carvalho (2011). A Bottom-Up Oblique Decision Tree Induction Algorithm. Proceedings of the 11th International Conference on Intelligent Systems Design and Applications (ISDA 2011). pp. 450–456.
+
+[4] Quinlan, J. R. (1996). Improved Use of Continuous Attributes in C4.5. Journal of Artificial Intelligence Research, 4: 77 – 90.
