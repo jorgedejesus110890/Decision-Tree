@@ -28,3 +28,35 @@ The classical formula for entropy, whose value is between 0 and 1, is as follows
 ### 2.1.2 Information gain
 
 The information gain is the measure used by the ID3 algorithm to select the most profitable attribute for separation. Also known as mutual information, information gain aims to reduce information uncertainty. In fact, the mutual information of two random variables X and Y measures the dependency relationship between the two variables: the higher the value of the mutual information, the stronger the dependence between X and Y, that is, in our case, the attribute with the highest information gain separates the data set well, which is why it should be chosen. The mathematical expression of this measure has the form:
+
+![alt text](https://github.com/jorgedejesus110890/Decision-Tree/blob/main/Gain.jpg?raw=true)
+
+### Dataset
+
+The database that has a sample 12 dogs.
+
+![alt text](https://github.com/jorgedejesus110890/Decision-Tree/blob/main/Dataset.jpg?raw=true)
+
+Table 1. Simple data set to determine the risk of dogs.
+
+
+The data presented in Table 1 present the following attributes:
+
+- Number. It is an ordinal attribute represents the number of dogs from 1 to 12.
+- Color. It is a nominal attribute with two different observations, which are: Black and Brown.
+- Body Shape. It is a nominal attribute with three different observations, which are: Big, Medium and Small.
+- Hair Type. It is a nominal attribute with two different observations which are: Poodle and Smooth.
+- Characteristic. It is a nominal decision attribute. Determine if the dog is dangerous or not and its observations are: Danger and Safe.
+
+### Results
+
+The decision tree with ID3 would be as follows:
+
+![alt text](https://github.com/jorgedejesus110890/Decision-Tree/blob/main/Decision-Tree.jpg?raw=true)
+
+Figure 1. The decision tree produced based on the ID3 algorithm.
+
+Conclusions
+
+In this work, the ID3 algorithm to build decision trees is presented, its advantages and disadvantages are shown, an exercise is carried out to see how this algorithm works, the results in section 3. Results give evidence that it is possible to build with precision decision trees from the ID3 algorithm. It can be concluded that from a set of data provided by a specialist in a discipline it is possible to have decision trees through the ID3 algorithm since it is a reliable support and help tool for decision making, it is important to highlight that You must have a consistent and reliable data set, since these types of tools depend on the knowledge provided by the information.
+
