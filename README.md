@@ -22,7 +22,7 @@ Entropy is used to determine how informative a particular input attribute is ove
 
 The classical formula for entropy, whose value is between 0 and 1, is as follows:
 
-![alt text](https://github.com/jorgedejesus110890/Decision-Tree/edit/main/entropia.jpeg?raw=true)
+![alt text](https://github.com/jorgedejesus110890/Decision-Tree/blob/main/Entropy.jpg?raw=true)
 
 
 ### 2.1.2 Information gain
